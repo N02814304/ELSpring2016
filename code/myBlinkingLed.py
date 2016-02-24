@@ -1,3 +1,7 @@
+# I used 2 separate for loops for each set of blinks. The first three blinks occur in the first for loop while the next four blinks occur in the next.
+# Since the whole thing is in a while(true) loop, it will keep repeating the cycle until the user enters CTRL+C. 
+# Each blink is separated by half a second, while each set of blinks is separated by 5 seconds. 
+
 import RPi.GPIO as GPIO
 import time
 GPIO.setmode(GPIO.BCM)
