@@ -1,3 +1,5 @@
+# I wrote the date and time as a single string to a csv file, 'mycsv'. The time was recorded 5 fives every three seconds.
+# After writing the data to the csv file, I opened up sqlite and created a database using the data in the csv file. 
 import time
 import csv
 csvout = open('mycsv.csv', 'wb')
